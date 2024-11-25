@@ -1,0 +1,160 @@
+*{margin: 0px; padding: 0px;}
+body{
+    background-image: url("Images/Ejderha.jpg");
+    color: aliceblue    ;
+}
+
+.LeftLink{
+    background-color: aqua;
+    width: 6vw;
+    height: 1000px;  
+    display: grid;
+    grid-template-rows: 10% 10% 90%;
+    justify-content: center;
+    max-width: 100%;
+}
+.WikiLink{
+    margin: 1vw;
+    height: 3vw;
+    width: 4vw;
+    text-decoration-line: none;
+    color: chocolate;
+}
+.Wiki_Logo{
+    width: 100%;
+    height: 100%;
+}
+.GOTlabel{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 4px;
+    margin-left: 4px;
+    max-width: 54px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.WikiLogo2{
+    width: 300px;
+    height: 150px;
+}
+.DropdownContanier{
+    overflow: hidden;
+    display: flex;
+    font-size: 15px;
+    height: 5vw;
+    width: 50vw;
+    z-index: 1;
+}
+.dropdownMenu{
+    margin: auto;
+}
+.menuLinks{
+    display: flex;
+    gap: 2rem;
+}
+.menuLink, .HousesDropdown li, .charactersDropdown li{ 
+    list-style: none;
+    height: 100%;
+    padding: 1rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.HousesDropdown, .charactersDropdown{
+    position: absolute;
+    display: none;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background: antiquewhite;
+    color: black;
+}
+.menuLink:hover .HousesDropdown, .menuLink:hover .charactersDropdown{
+    display: block;
+}
+.menuLink a{
+    display: flex;
+}
+.HeaderDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    border: 1px solid rgb(139, 2, 13);
+}
+.WikiMainPage{
+    background-color: #292424;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 5%;
+}
+#PreviewImage{
+    width: 400px;
+    height: 200px;
+    margin-right: 1%;
+}
+#Preview{
+    padding: 1%;
+    display: flex;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+}
+.ortala{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#videos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 100%;
+    justify-content: center;
+}
+.CharacterImage{
+    width: 200px;
+    height: 300px;
+    margin: 1%;
+    border-radius: 15px;
+}
+.CharacterGrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    max-width: 100%;
+    justify-content: center;
+}
+.Characters{
+    margin: 1%;
+    padding: 1%;
+}
+.comminicate{
+    padding: 1%;
+    background-color: #292424;
+    margin-top: 50px;
+    width: 98%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comImage{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}

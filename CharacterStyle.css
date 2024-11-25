@@ -1,0 +1,51 @@
+*{margin: 0px; padding: 0px;}
+.CharacterPage{
+    background-color: #292424;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 5%;
+}
+.CharacterDiv{
+    border: 4px #535353 solid;
+    border-radius: 4px;
+    margin: 1%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageCharacter{
+    margin: 1%;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(124, 4, 28);
+}
+.Head{
+    width: 94%;
+    margin: 1%;
+    background-color: #535353;
+    color: rgb(139, 2, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(124, 4, 28);
+}
+.between{
+    border-bottom: 4px solid rgb(124, 4, 28);
+    width: 90%;
+}
+.CharacterMain{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 100%;
+    justify-content: center;
+}
